@@ -139,6 +139,8 @@ a:active {
 .FeaturedProduct {
   text-align: center;
   color: #8d8d8d;
+  display: grid;
+  place-content: center;
 }
 .FeaturedProduct__wraper {
   margin: 20px;
@@ -156,5 +158,23 @@ a:active {
 }
 
 .Product__img {
+  width: 100%;
+}
+
+/* Blog */
+
+.FeaturedBlog {
+  text-align: center;
+  color: #8d8d8d;
+}
+.FeaturedBlogs__wraper {
+  max-width: 100%;
+  margin: 20px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+.FeaturedBlog__img {
   width: 100%;
 }
