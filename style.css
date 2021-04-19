@@ -1,3 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Richblack: #03191e;
+  --Crimson: #941c2f;
+  --Turquoiseblue: #59f8e8;
+  --Carolinablue: #20a4f3;
+  --Beaublue: #c1cfda;
+  --grey: #8d8d8d;
+}
+
 body {
-  background-color: aqua;
+  min-height: 100vh;
+  font-family: sans-serif;
+}
+/* BASE STYLING */
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+a:link {
+  color: black;
+}
+
+/* visited link */
+a:visited {
+  color: var(--grey);
+}
+
+/* mouse over link */
+a:hover {
+  color: var(--Turquoiseblue);
+  text-decoration: underline var(--Turquoiseblue);
+}
+
+/* selected link */
+a:active {
+  color: var(--grey);
+  text-decoration: underline var(--Turquoiseblue);
+}
+.button {
+  padding: 5px;
+  border-radius: 25px;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+/* HEADER  */
+
+.Header {
+  margin: 10px;
+  display: grid;
+
+  position: sticky;
+  top: 0;
+  padding: 20px;
+
+  text-transform: uppercase;
+  grid-template-columns: auto 1fr;
+  place-content: center;
+}
+/* Header img  */
+.Header--img {
+  max-width: 200px;
+  max-height: 100px;
+}
+
+/* header list */
+.Header__ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.Header__ul li {
+  place-self: center;
 }
