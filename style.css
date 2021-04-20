@@ -16,6 +16,7 @@
 body {
   min-height: 100vh;
   font-family: sans-serif;
+  color: #8d8d8d;
 }
 /* BASE STYLING */
 h1 {
@@ -141,6 +142,7 @@ a:active {
   color: #8d8d8d;
   display: grid;
   place-content: center;
+  background-color: #f5f2ed;
 }
 .FeaturedProduct__wraper {
   margin: 20px;
@@ -161,20 +163,13 @@ a:active {
   width: 100%;
 }
 
-/* Blog */
-
-.FeaturedBlog {
+/* FEATURED VIDEO */
+.FeaturedAboutUs {
   text-align: center;
-  color: #8d8d8d;
+  background-color: #f5f2ed;
 }
-.FeaturedBlogs__wraper {
-  max-width: 100%;
-  margin: 20px;
-
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 20px;
-}
-.FeaturedBlog__img {
-  width: 100%;
+.FeaturedAboutUs__video {
+  text-align: center;
+  width: 420px;
+  height: 340px;
 }
