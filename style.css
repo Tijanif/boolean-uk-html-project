@@ -150,17 +150,23 @@ a:active {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
+  grid-auto-rows: 250px;
 }
 
 /* Product */
 .Product {
-  max-width: 250px;
-  background-color: lawngreen;
+  background-color: rgb(98, 72, 72, 0.2);
   border-radius: 10px;
 }
 
+.Product__price {
+  margin: 10px 0;
+}
+.Product__button {
+}
 .Product__img {
   width: 100%;
+  border-radius: 10px;
 }
 
 /* FEATURED VIDEO */
