@@ -104,8 +104,8 @@ a:active {
 /* FEATURED VIDEO */
 .FeaturedAboutUs {
   text-align: center;
-  background-color: #f5f2ed;
-  padding-bottom: 30px;
+  background-color: #daaaaa;
+  padding: 30px;
 }
 .FeaturedAboutUs__video {
   text-align: center;

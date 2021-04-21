@@ -1,0 +1,20 @@
+.FeaturedProduct-shop {
+  padding: 30px;
+  text-align: center;
+  display: grid;
+  color: black;
+  justify-content: center;
+  background-color: #f5f2ed;
+}
+.FeaturedProduct-shop h1 {
+  margin-bottom: 40px;
+}
+.shop__wraper {
+  /* width: 900px; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 45px;
+
+  padding: 40px;
+  justify-content: center;
+}
