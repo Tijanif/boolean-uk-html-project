@@ -10,7 +10,6 @@
   margin-bottom: 40px;
 }
 .shop__wraper {
-  /* width: 900px; */
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 45px;
