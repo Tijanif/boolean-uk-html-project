@@ -17,6 +17,8 @@ body {
   min-height: 100vh;
   font-family: sans-serif;
   color: #8d8d8d;
+  display: grid;
+  grid-auto-rows: auto 1fr auto;
 }
 /* BASE STYLING */
 h1 {
@@ -72,6 +74,27 @@ li {
   padding: 20px 0 30px 0;
 }
 
+/* form grid */
+
+.form__row {
+  display: grid;
+  grid-template:
+    'form__h2 form__h2 form__h2' 40px
+    'form__column_left form__verticalLine form__column_right' 40px/ 1fr 1fr 1fr;
+}
+
+.form__h2 {
+  grid-area: 'form__h2';
+}
+.form__column_left {
+  grid-area: 'form__column_left';
+}
+.form__verticalLine {
+  grid-area: 'form__verticalLine';
+}
+.form__column_right {
+  grid-area: 'form__column_right';
+}
 /* Form inputs and button */
 input,
 .button {
@@ -92,6 +115,17 @@ input:hover,
   opacity: 1;
 }
 
+/* input submit button */
+
+.input__submit {
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+.input__submit:hover {
+  background-color: #45a049;
+}
 /* social media colors */
 
 .fb {
@@ -109,6 +143,19 @@ input:hover,
   color: white;
 }
 
+/* Bottom container */
+.bottom-container {
+  text-align: center;
+  background-color: #666;
+  padding: 10px;
+  border-radius: 0px 0px 4px 4px;
+}
+
+.bottom-link {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
 /* FOOTER */
 
 .Footer {
