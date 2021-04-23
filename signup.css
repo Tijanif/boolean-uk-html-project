@@ -63,3 +63,66 @@ li {
 .Header__ul li {
   place-self: center;
 }
+
+/* FOOTER */
+
+.Footer {
+  margin: 10px;
+  display: grid;
+
+  text-transform: uppercase;
+  grid-template-columns: auto 1fr 1fr;
+  place-content: center;
+}
+
+.Footer__ul {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+.Footer__ul li {
+  place-self: center;
+}
+
+.Footer__followUs__ul {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+
+  padding-top: 30px;
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+/* footer img */
+.Footer--img {
+  max-width: 200px;
+  max-height: 100px;
+}
