@@ -77,10 +77,6 @@ li {
 /* form grid */
 
 .form__row {
-  display: grid;
-  grid-template:
-    'form__h2 form__h2 form__h2' 40px
-    'form__column_left form__verticalLine form__column_right' 40px/ 1fr 1fr 1fr;
 }
 
 .form__h2 {
